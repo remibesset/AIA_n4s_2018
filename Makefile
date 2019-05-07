@@ -10,7 +10,8 @@ SRC = src/main.c \
 	src/my_lib.c \
 	src/utils.c \
 	src/verif_malloc.c \
-	src/change_speed_dir.c \
+	src/change_speed.c \
+	src/change_dir.c \
 	src/free.c \
 
 CFLAGS = -g3 -Iinclude

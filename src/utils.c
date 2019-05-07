@@ -76,3 +76,21 @@ char *take_new_str_for_tab(char *str)
             new_str[j++] = str[i];
     return (new_str);
 }
+
+char *my_strcat(char *src, char *dest)
+{
+    int size = my_strlen(dest) + my_strlen(src) + 1;
+    char *result = malloc(sizeof(char) * (size));
+    int i = 0;
+    int j = 0;
+
+    for (int i = 0; i < size; result[i] = '\0', i++);
+    while (src[i] != '\0') {
+        result[i] = src[i];
+        i++;
+    }
+    while (dest[j] != '\0')
+        result[i++] = dest[j++];
+    result[i] = '\0';
+    return (result);
+}

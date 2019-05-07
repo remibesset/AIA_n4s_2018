@@ -33,12 +33,15 @@ int my_strcmp(char *str1, char *str2);
 char **my_str_to_word_tab(char *str, char separator, int *nb_argument);
 char **my_realloc_charchar(char **list, int k, char *name);
 char *take_new_str_for_tab(char *str);
+char *my_strcat(char *src, char *dest);
 
 //verif_malloc.c
 void *xmalloc(int size);
 
-//change_speed_dir.c
+//change_speed.c
 int set_speed(float mid);
+
+//change_dir.c
 int set_dir(float mid, char **tab);
 int set_dir_left_right(float calcul, char* command);
 
