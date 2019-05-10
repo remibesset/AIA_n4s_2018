@@ -18,7 +18,7 @@ CFLAGS = -g3 -Iinclude
 
 OBJ = $(SRC:.c=.o)
 
-NAME = ia
+NAME = ai
 
 GCCWAY = gcc -o
 
