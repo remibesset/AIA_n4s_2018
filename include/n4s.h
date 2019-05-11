@@ -28,6 +28,7 @@ void my_putstr(char *str);
 void my_putchar(char);
 int my_strlen(char *str);
 int my_strcmp(char *str1, char *str2);
+int my_strlen_tab(char **tab);
 
 //utils.c
 char **my_str_to_word_tab(char *str, char separator, int *nb_argument);
@@ -51,5 +52,8 @@ int execute_commande(char *str);
 
 //free.c
 void free_function(char **tab, char *str);
+
+//detect_finish.c
+int detect_finish(char *str);
 
 #endif

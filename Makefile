@@ -7,12 +7,13 @@
 
 SRC = src/main.c \
 	src/get_next_line.c \
-	src/my_lib.c \
-	src/utils.c \
-	src/verif_malloc.c \
+	src/utils/my_lib.c \
+	src/utils/utils.c \
+	src/utils/verif_malloc.c \
 	src/change_speed.c \
 	src/change_dir.c \
-	src/free.c \
+	src/utils/free.c \
+	src/detect_finish.c \
 
 CFLAGS = -g3 -Iinclude
 
